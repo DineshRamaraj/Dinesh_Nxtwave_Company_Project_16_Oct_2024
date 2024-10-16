@@ -2,7 +2,7 @@ import React from "react";
 
 const Roadmap = () => {
   return (
-    <div id="roadmap" className="roadmap-container px-5 pb-20">
+    <div id="roadmap" className="roadmap-container px-5 pt-28">
       <center>
         <h1 className="text-white text-[28px] font-[roboto]">Roadmap</h1>
       </center>

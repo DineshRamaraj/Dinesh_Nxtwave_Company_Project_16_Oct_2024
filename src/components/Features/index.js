@@ -2,8 +2,8 @@ import React from "react";
 
 const Features = () => {
   return (
-    <div id="features" className="features-container flex flex-col justify-center items-center min-h-screen px-5 pt-5 pb-8">
-      <center className="flex md:hidden mb-3">
+    <div id="features" className="features-container flex flex-col justify-center items-center min-h-screen px-5 pt-28">
+      <center className="mb-5">
         <h1 className="text-white text-[24px] font-[roboto]">Our Features</h1>
       </center>
       <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-4 gap-3">

@@ -12,8 +12,8 @@ import MainHeader from './components/MainHeader';
 function App() {
   return (
     <div className="bg-gradient-to-r from-[#00141a] via-[#050602] to-[#00141a] min-h-[100vh]">
-      <div className="p-3 pb-5">
-        <MainHeader />
+      <MainHeader />
+      <div className="p-3 pb-5 lg:px-32">
         <Home />
         <Features />
         <About />

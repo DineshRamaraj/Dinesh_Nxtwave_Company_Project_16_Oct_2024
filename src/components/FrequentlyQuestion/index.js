@@ -2,8 +2,8 @@ import React from "react";
 
 const FrequentlyQuestions = () => {
   return (
-    <div className="roadmap-container px-10 pb-20">
-      <h1 className="font-sans text-slate-100 font-thin text-[28px]">
+    <div className="roadmap-container px-10 pb-20 flex flex-col md:flex-row ">
+      <h1 className="font-sans text-slate-100 font-thin text-[32px] md:mt-7 md:px-20">
         Frequently Asked Questions
       </h1>
       <div className="space-y-1 mt-5">

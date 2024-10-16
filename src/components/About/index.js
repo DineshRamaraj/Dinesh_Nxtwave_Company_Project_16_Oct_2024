@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="about-container px-5 py-20 flex flex-col">
+    <div id="about" className="about-container px-5 pt-28 flex flex-col">
       <div className="flex flex-col items-center">
         <center className="mb-3">
           <h1 className="text-white text-[24px] font-[roboto]">About EthAi</h1>
