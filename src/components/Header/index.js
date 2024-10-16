@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ showSideBar, setShowSideBar }) => {
   return (
-    <div className="relative">
+    <div className="relative opacity-100 z-50">
       <div className="hidden md:flex md:px-6 md:py-3 w-full bg-[#061a1c] rounded-lg fixed top-0">
         <div className="flex justify-between items-center p-2 w-full">
           <a href="#home" className="flex items-center space-x-2 cursor-pointer">

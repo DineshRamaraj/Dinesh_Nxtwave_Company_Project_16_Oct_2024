@@ -3,7 +3,7 @@ import { IoMdClose } from "react-icons/io";
 
 const SideMenuBar = ({ showSideBar, setShowSideBar }) => {
   return (
-    <div className="relative flex md:hidden">
+    <div className="relative flex md:hidden opacity-100 z-50">
       {showSideBar && (
         <div className="fixed min-h-full top-16 right-0 bottom-0 left-0 bg-[#0c2b2f80]">
           <div>
